@@ -17,4 +17,4 @@ while True:
         if inst_status['InstanceState']['Name'] == 'running':
             exit()
 
-
+# This is end of file
