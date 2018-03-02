@@ -21,4 +21,4 @@ for region in regions:
     ec2_conn = boto3.client('ec2', region_name=region)
     print_instance_details(ec2_conn.describe_instances())
 
-
+# This is the end of the file
